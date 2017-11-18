@@ -2,7 +2,7 @@
 # Here you can create functions which will be available from the commands file
 # You can also use here user variables defined in your config file
 
-jv_wiki(){ 
+jv_wiki(){
 
     local WIKI_SEARCH=$(echo $1 | tr -d ' ')
     local LIMITED_WIKI_QUERY="https://fr.wikipedia.org/w/api.php?action=opensearch&search="$WIKI_SEARCH"&prop=revisions&rvprop=content&format=json"
