@@ -1,0 +1,1 @@
+*QUOI (*)==say "Je me renseigne" && say "$(jv_wiki_search "(1)")"
