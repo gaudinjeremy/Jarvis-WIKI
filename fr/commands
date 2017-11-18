@@ -1,1 +1,5 @@
-*QUOI (*)==say "Je me renseigne" && say "$(jv_wiki_search "(1)")"
+*EST QUOI LA (*)==say "Je me renseigne" && say "$(jv_wiki "(1)")"
+*EST QUOI LE (*)==say "Je me renseigne" && say "$(jv_wiki "(1)")"
+*EST QUOI UNE (*)==say "Je me renseigne" && say "$(jv_wiki "(1)")"
+*EST QUOI UN (*)==say "Je me renseigne" && say "$(jv_wiki "(1)")"
+*EST QUI (*)==say "Je me renseigne" && say "$(jv_wiki "(1)")"
